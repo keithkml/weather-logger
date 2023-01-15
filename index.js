@@ -43,7 +43,7 @@ function handleResponse(json) {
   const conditions = json.currentConditions;
   logger.info({
     outsideTempF: conditions.temp,
-    outsideFeelsLikeF: conditions.temp,
+    outsideFeelsLikeF: conditions.feelslike,
     outsideHumidity: conditions.humidity,
     outsideConditions: conditions.conditions,
     outsideWindMph: conditions.windspeed,
