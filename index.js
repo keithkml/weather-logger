@@ -49,6 +49,7 @@ function handleResponse(json) {
     outsideWindMph: conditions.windspeed,
     outsideSolarRadiation: conditions.solarradiation,
     outsideSolarEnergy: conditions.solarenergy,
+    pressure: conditions.pressure,
   });
 }
 
