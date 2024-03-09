@@ -6,7 +6,7 @@ Log current weather conditions for a specific location, from visualcrossing.com,
 
 ```
 export DATADOG_API_KEY=da39a3ee5e6b4b0d3255bfef95601890afd80709
-export VISUALCROSSIG_API_KEY=da39a3ee5e6b4b0d3255bfef95601890afd80709
+export VISUAL_CROSSING_API_KEY=da39a3ee5e6b4b0d3255bfef95601890afd80709
 node index.js "New York, NY"
 ```
 
